@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="DFS,BFS 연습문제">
-      <change afterPath="$PROJECT_DIR$/src/정렬/문제1_위에서아래로.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/정렬/문제2_성적이낮은순서로학생출력.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/정렬/문제3_두배열의원소교체.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="정렬알고리즘 기초문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/이진탐색/개념1_이진탐색구현.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +56,52 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.문제3_두배열의원소교체">
-    <configuration name="문제1_음료수얼려먹기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색.문제1_음료수얼려먹기" />
+  <component name="RunManager" selected="Application.문제1_부품찾기3">
+    <configuration name="개념1_이진탐색구현" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이진탐색.개념1_이진탐색구현" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="탐색.*" />
+          <option name="PATTERN" value="이진탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제1_부품찾기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기2" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="이진탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제1_부품찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="이진탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제1_부품찾기3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기3" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="이진탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,19 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제2_미로탈출" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색.문제2_미로탈출" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.문제1_부품찾기3" />
+        <item itemvalue="Application.문제1_부품찾기2" />
+        <item itemvalue="Application.문제1_부품찾기" />
+        <item itemvalue="Application.개념1_이진탐색구현" />
         <item itemvalue="Application.문제3_두배열의원소교체" />
-        <item itemvalue="Application.문제2_성적이낮은순서로학생출력" />
-        <item itemvalue="Application.문제1_위에서아래로" />
-        <item itemvalue="Application.문제2_미로탈출" />
-        <item itemvalue="Application.문제1_음료수얼려먹기" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +172,8 @@
       <workItem from="1662600337427" duration="28480000" />
       <workItem from="1662693216249" duration="6617000" />
       <workItem from="1662777082571" duration="1211000" />
-      <workItem from="1662784888708" duration="9390000" />
+      <workItem from="1662784888708" duration="9476000" />
+      <workItem from="1662870741244" duration="9913000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -182,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662701915989</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="정렬알고리즘 기초문제 풀이">
+      <created>1662796885597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662796885597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +240,8 @@
     <MESSAGE value="구현 연습문제 풀이" />
     <MESSAGE value="DFS,BFS 개념정리" />
     <MESSAGE value="DFS,BFS 연습문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS,BFS 연습문제" />
+    <MESSAGE value="정렬알고리즘 기초문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="정렬알고리즘 기초문제 풀이" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
