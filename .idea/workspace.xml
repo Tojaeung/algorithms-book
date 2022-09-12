@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="정렬알고리즘 기초문제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/이진탐색/개념1_이진탐색구현.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기3.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="이진탐색 기초공부">
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념1_피보나치수열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념2_탑다운.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념3_보텀업.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제1_1로만들기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제2_바닥공사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제3_개미전사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제4_효율적인화폐구성.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,33 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.문제1_부품찾기3">
-    <configuration name="개념1_이진탐색구현" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.개념1_이진탐색구현" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제1_부품찾기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기2" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.개념2_탑다운">
     <configuration name="문제1_부품찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기" />
       <module name="algorithms-basic" />
@@ -96,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제1_부품찾기3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기3" />
+    <configuration name="문제1_1로만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제1_1로만들기" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제2_성적이낮은순서로학생출력" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.문제2_성적이낮은순서로학생출력" />
+    <configuration name="개념2_탑다운" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.개념2_탑다운" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.*" />
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제3_두배열의원소교체" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.문제3_두배열의원소교체" />
+    <configuration name="문제2_바닥공사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제2_바닥공사" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.*" />
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="개념3_보텀업" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.개념3_보텀업" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제3_개미전사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제3_개미전사" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.문제1_부품찾기3" />
-        <item itemvalue="Application.문제1_부품찾기2" />
-        <item itemvalue="Application.문제1_부품찾기" />
-        <item itemvalue="Application.개념1_이진탐색구현" />
-        <item itemvalue="Application.문제3_두배열의원소교체" />
+        <item itemvalue="Application.문제1_1로만들기" />
+        <item itemvalue="Application.개념3_보텀업" />
+        <item itemvalue="Application.개념2_탑다운" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,10 @@
       <workItem from="1662693216249" duration="6617000" />
       <workItem from="1662777082571" duration="1211000" />
       <workItem from="1662784888708" duration="9476000" />
-      <workItem from="1662870741244" duration="9913000" />
+      <workItem from="1662870741244" duration="9932000" />
+      <workItem from="1662952713910" duration="19772000" />
+      <workItem from="1662989244089" duration="257000" />
+      <workItem from="1662989883899" duration="1372000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662796885597</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="이진탐색 기초공부">
+      <created>1662883729085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662883729085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +252,18 @@
     <MESSAGE value="DFS,BFS 개념정리" />
     <MESSAGE value="DFS,BFS 연습문제" />
     <MESSAGE value="정렬알고리즘 기초문제 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="정렬알고리즘 기초문제 풀이" />
+    <MESSAGE value="이진탐색 기초공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="이진탐색 기초공부" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
