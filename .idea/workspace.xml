@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="이진탐색 기초공부">
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념1_피보나치수열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념2_탑다운.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념3_보텀업.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제1_1로만들기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제2_바닥공사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제3_개미전사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제4_효율적인화폐구성.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="DP 기본연습">
+      <change afterPath="$PROJECT_DIR$/src/최단거리/개념1_다익스트라.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/최단거리/개념2_개선된다익스트라.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/최단거리/개념3_플로이드워셜.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.개념2_탑다운">
+  <component name="RunManager" selected="Application.개념1_다익스트라">
     <configuration name="문제1_부품찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기" />
       <module name="algorithms-basic" />
@@ -79,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="개념1_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="최단거리.개념1_다익스트라" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="최단거리.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.개념1_다익스트라" />
         <item itemvalue="Application.문제1_1로만들기" />
         <item itemvalue="Application.개념3_보텀업" />
         <item itemvalue="Application.개념2_탑다운" />
@@ -177,7 +187,8 @@
       <workItem from="1662870741244" duration="9932000" />
       <workItem from="1662952713910" duration="19772000" />
       <workItem from="1662989244089" duration="257000" />
-      <workItem from="1662989883899" duration="1372000" />
+      <workItem from="1662989883899" duration="3279000" />
+      <workItem from="1663033636907" duration="11032000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -228,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662883729085</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DP 기본연습">
+      <created>1662992050873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662992050873</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +271,8 @@
     <MESSAGE value="DFS,BFS 연습문제" />
     <MESSAGE value="정렬알고리즘 기초문제 풀이" />
     <MESSAGE value="이진탐색 기초공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="이진탐색 기초공부" />
+    <MESSAGE value="DP 기본연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="DP 기본연습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
