@@ -40,9 +40,10 @@ public class 개념3_플로이드워셜 {
         }
 
         // 점화식에 따라 플로이드 워셜 알고리즘을 수행
-        for (int k = 1; k <= n; k++) {
+        for (int k = 1; k <= n; k++) {  // k를 지나치는 경우
             for (int a = 1; a <= n; a++) {
                 for (int b = 1; b <= n; b++) {
+                    // 직빵으로 가는 경우와 k를 지나치는 경우를 비교한다.
                     graph[a][b] = Math.min(graph[a][b], graph[a][k] + graph[k][b]);
                 }
             }

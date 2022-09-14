@@ -40,13 +40,13 @@ public class 개념1_다익스트라 {
         int min_value = INF;
         int index = 0; // 가장 최단 거리가 짧은 노드(인덱스)
         for (int i = 1; i <= n; i++) {
+            // 루프를 돌면서 최단거리의 min_value, index를 업데이트하고 반환한다. 
             if (d[i] < min_value && !visited[i]) {
                 min_value = d[i];
                 index = i;
             }
         }
-
-        // 주변 노드 인덱스 반환
+        
         return index;
     }
 

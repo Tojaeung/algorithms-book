@@ -54,6 +54,7 @@ public class 개념2_개선된다익스트라 {
             int dist = node.getDistance(); // 현재 노드까지의 비용 
             int now = node.getIndex(); // 현재 노드
             // 현재 노드가 이미 처리된 적이 있는 노드라면 무시
+            // 최단경로 d[now]가 우선순위 큐에서 나온 노드보다 작다는건 이미 최단경로 처리가 되었다는 뜻이다 !!?(이해안됐음..)
             if (d[now] < dist) continue;
             // 현재 노드와 연결된 다른 인접한 노드들을 확인
             for (int i = 0; i < graph.get(now).size(); i++) {
