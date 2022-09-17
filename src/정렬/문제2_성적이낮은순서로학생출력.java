@@ -29,13 +29,8 @@ class Student implements Comparable<Student> {
      * */
     @Override
     public int compareTo(Student o) {
-        /*
-         * 주체객체가 더 큰데 1을 리턴해서 바꿔준다.?? 이것은 내림차순 정렬이다.
-         *  주체객체가 더 큰데 -1을 리턴해서 바꿔준다.?? 이것은 내림차순 정렬이다.
-         * 1을 리턴하면 자리를 바꿔준다.
-         * -1을 리턴하면 자리를 유지한다.
-         * */
-        return this.score < o.score ? -1 : 1;
+        if (this.score > o.score) return 1;
+        return -1;
     }
 }
 
@@ -50,12 +45,20 @@ public class 문제2_성적이낮은순서로학생출력 {
         List<Student> student = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
+            /*
+             * next()에 대해서 알아보자
+             * next는 공백문자를 구분자로 인식한다. 예를들어서 "이순신 85"를 입력한다면 next는 이순신만 출력한다.
+             * 그 다음 버퍼에는 " 85"가 남아 있고 nextInt는 공백문자를 포함하지 않고 오직 숫자만 출력한다.
+             * 만약 nextLine이 있다면 공백문자까지 같이 출력을 하기 때문에 " 85"가 출력될것이다.
+             * nextLine을 사용하면 공백문자가 포함되므로 사용전에는 반드시 버퍼를 초기화 하자
+             * */
             String name = sc.next();
             int score = sc.nextInt();
             student.add(new Student(name, score));
         }
 
         Collections.sort(student);
+        // student.sort(Comparator.naturalOrder());
 
         for (int i = 0; i < student.size(); i++) {
             System.out.print(student.get(i).getName() + " ");

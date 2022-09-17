@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="기타 알고리즘 문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/복습연습장.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="최단거리 기본문제풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/그리드/문제2_숫자카드게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그리드/문제2_숫자카드게임.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/그리드/문제3_큰수의법칙.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그리드/문제3_큰수의법칙.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/구현/문제2_시각.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/구현/문제2_시각.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/구현/문제4_게임개발.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/구현/문제4_게임개발.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/복습연습장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/복습연습장.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/정렬/문제2_성적이낮은순서로학생출력.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/정렬/문제2_성적이낮은순서로학생출력.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/정렬/문제3_두배열의원소교체.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/정렬/문제3_두배열의원소교체.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/탐색/개념2_재귀함수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/탐색/개념2_재귀함수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,46 +50,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.복습연습장">
     <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="복습연습장" />
       <module name="algorithms-basic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제1_팀결성" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.문제1_팀결성" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="개념1_서로소집합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.개념1_서로소집합" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,12 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제2_도시분할계획" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.문제2_도시분할계획" />
+    <configuration name="복습연습장2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="복습연습장2" />
+      <module name="algorithms-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제2_전보" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="최단거리.문제2_전보" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="기타.*" />
+          <option name="PATTERN" value="최단거리.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +130,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제2_도시분할계획" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.문제2_도시분할계획" />
+    <configuration name="개념2_재귀함수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.개념2_재귀함수" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="기타.*" />
+          <option name="PATTERN" value="탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제2_성적이낮은순서로학생출력" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.문제2_성적이낮은순서로학생출력" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제2_시각" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="구현.문제2_시각" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,65 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="개념3_크루스칼" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.개념3_크루스칼" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제3_큰수의법칙" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="그리드.문제3_큰수의법칙" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="그리드.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제3_개미전사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제3_개미전사" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="다이나믹프로그래밍.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="개념4_위상정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.개념4_위상정렬" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.복습연습장" />
-        <item itemvalue="Application.문제3_큰수의법칙" />
-        <item itemvalue="Application.문제1_팀결성" />
-        <item itemvalue="Application.개념4_위상정렬" />
-        <item itemvalue="Application.개념3_크루스칼" />
+        <item itemvalue="Application.문제2_성적이낮은순서로학생출력" />
+        <item itemvalue="Application.개념2_재귀함수" />
+        <item itemvalue="Application.복습연습장2" />
+        <item itemvalue="Application.문제2_전보" />
       </list>
     </recent_temporary>
   </component>
@@ -256,12 +214,8 @@
       <workItem from="1663033636907" duration="11110000" />
       <workItem from="1663077694084" duration="5187000" />
       <workItem from="1663116682296" duration="14098000" />
-      <workItem from="1663144850590" duration="202000" />
-      <workItem from="1663152707480" duration="11982000" />
-      <workItem from="1663219998655" duration="5091000" />
-      <workItem from="1663227048420" duration="6702000" />
-      <workItem from="1663238363349" duration="71000" />
-      <workItem from="1663241969620" duration="10484000" />
+      <workItem from="1663384680011" duration="606000" />
+      <workItem from="1663389522692" duration="12410000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -326,21 +280,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663056176444</updated>
     </task>
-    <task id="LOCAL-00010" summary="기타 알고리즘 개념공부">
-      <created>1663166176266</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663166176266</updated>
-    </task>
-    <task id="LOCAL-00011" summary="기타 알고리즘 문제풀이">
-      <created>1663238425053</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663238425053</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,9 +307,7 @@
     <MESSAGE value="이진탐색 기초공부" />
     <MESSAGE value="DP 기본연습" />
     <MESSAGE value="최단거리 알고리즘 개념" />
-    <MESSAGE value="기타 알고리즘 개념공부" />
-    <MESSAGE value="기타 알고리즘 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="기타 알고리즘 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="최단거리 알고리즘 개념" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

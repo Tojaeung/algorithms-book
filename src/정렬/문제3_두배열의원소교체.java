@@ -21,9 +21,12 @@ public class 문제3_두배열의원소교체 {
             b[i] = sc.nextInt();
         }
 
-        // 기본 오름차순정렬
+        /*
+         * 기본타입의 정렬은 오름차순만 가능하다 (예를들어서 int)
+         * 이 문제는 내림차순 정렬도 필요하므로 int를 Integer 래퍼클래스로 변경하였다.
+         * Arrays.sort는 배열을 정렬하고, collections.sort는 컬렉션을 정렬할때 사용된다.
+         * */
         Arrays.sort(a);
-        // 내림차순 정렬
         Arrays.sort(b, Comparator.reverseOrder());
 
         for (int i = 0; i < k; i++) {
