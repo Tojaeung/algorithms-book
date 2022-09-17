@@ -7,8 +7,12 @@ public class 문제1_부품찾기2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
-        // N(가게의 부품 개수)
+        /*
+         * 나는 arr(도구종류 배열)만들고 table(계수정렬을 위한)도 만들었지만
+         * 모범답안은 계수정렬 테이블만 만들었다.(간단)
+         * 계수정렬 테이블의 배열을 new int[n]이라고 했다가 에러가 났다.
+         * 계수정렬 테이블에는 인덱스에 +1이 되기때문에 반드시 !!! [10000001]로 초기화 시켜야한다.
+         * */
         int n = sc.nextInt();
         int[] arr = new int[1000001];
         for (int i = 0; i < n; i++) {
