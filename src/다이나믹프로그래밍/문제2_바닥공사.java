@@ -12,6 +12,7 @@ public class 문제2_바닥공사 {
 
         int n = sc.nextInt();
 
+        // dp 보품업 반복문 방식
         d[1] = 1;
         d[2] = 3;
         for (int i = 3; i <= n; i++) {

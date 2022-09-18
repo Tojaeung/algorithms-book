@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="구현,탐색,정렬 복습">
-      <change afterPath="$PROJECT_DIR$/src/이진탐색/문제2_떡볶이떡만들기.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="이진탐색 복습 및 어려운 문제풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/이진탐색/문제1_부품찾기3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념2_탑다운.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념2_탑다운.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념3_보텀업.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/개념3_보텀업.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제1_1로만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제1_1로만들기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제2_바닥공사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제2_바닥공사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제3_개미전사.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제3_개미전사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제4_효율적인화폐구성.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/문제4_효율적인화폐구성.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/복습연습장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/복습연습장.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.복습연습장">
+  <component name="RunManager" selected="Application.문제3_개미전사">
     <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="복습연습장" />
       <module name="algorithms-basic" />
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제1_부품찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기" />
+    <configuration name="문제1_1로만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제1_1로만들기" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="개념1_다익스트라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="최단거리.개념1_다익스트라" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="최단거리.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="문제1_위에서아래로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="정렬.문제1_위에서아래로" />
       <module name="algorithms-basic" />
@@ -121,19 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="복습연습장2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="복습연습장2" />
-      <module name="algorithms-basic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="문제2_떡볶이떡만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="이진탐색.문제2_떡볶이떡만들기" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="이진탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="개념2_탑다운" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.개념2_탑다운" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,13 +189,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="문제3_개미전사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제3_개미전사" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.문제3_개미전사" />
         <item itemvalue="Application.복습연습장" />
+        <item itemvalue="Application.문제1_1로만들기" />
         <item itemvalue="Application.문제1_부품찾기2" />
         <item itemvalue="Application.문제2_떡볶이떡만들기" />
-        <item itemvalue="Application.문제1_부품찾기" />
-        <item itemvalue="Application.복습연습장2" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +236,9 @@
       <workItem from="1663116682296" duration="14098000" />
       <workItem from="1663384680011" duration="606000" />
       <workItem from="1663389522692" duration="12433000" />
-      <workItem from="1663411623585" duration="11555000" />
+      <workItem from="1663411623585" duration="11585000" />
+      <workItem from="1663467633441" duration="6346000" />
+      <workItem from="1663481138849" duration="8600000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -299,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663404562733</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="이진탐색 복습 및 어려운 문제풀이">
+      <created>1663426383123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663426383123</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +345,8 @@
     <MESSAGE value="DP 기본연습" />
     <MESSAGE value="최단거리 알고리즘 개념" />
     <MESSAGE value="구현,탐색,정렬 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="구현,탐색,정렬 복습" />
+    <MESSAGE value="이진탐색 복습 및 어려운 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="이진탐색 복습 및 어려운 문제풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

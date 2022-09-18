@@ -18,13 +18,14 @@ public class 문제3_개미전사 {
             arr[i] = sc.nextInt();
         }
 
+        // 2칸 떨어져도 최대값이면 그게 정답이다. (짝수, 홀수 나누는줄...;;;)
         d[0] = arr[0];
         d[1] = Math.max(d[0], arr[1]);
         for (int i = 2; i < n; i++) {
             d[i] = Math.max(d[i - 1], d[i - 2] + arr[i]);
         }
 
-        System.out.println(d[n - 1]);
+        System.out.println("정답: " + d[n - 1]);
 
     }
 }
