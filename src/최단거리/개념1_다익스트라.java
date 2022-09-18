@@ -35,7 +35,10 @@ public class 개념1_다익스트라 {
     // 최단 거리 테이블 만들기
     public static int[] d = new int[100001];
 
-    // 시작노드 주변 노드부터 방문을 시작한다. (관례적으로 노드 인덱스가 작은거 부터 시작)
+    /*
+     * 방문하지 않는 노드 중에 가장 거리가 짧은 노드를 선택한다.
+     * 그런데 왜?? 꼭 방문하지않는 노드 중에 가장 거리가 짧은 노드를 선택해야하지??
+     * */
     public static int getSmallestNode1() {
         int min_value = INF;
         int index = 0; // 가장 최단 거리가 짧은 노드(인덱스)
@@ -46,7 +49,7 @@ public class 개념1_다익스트라 {
                 index = i;
             }
         }
-        
+
         return index;
     }
 
@@ -73,6 +76,7 @@ public class 개념1_다익스트라 {
                 int cost = d[now] + graph.get(now).get(j).getDistance();
 
                 // 현재 노드를 거쳐서 다른 노드로 이동하는 거리가 더 짧은 경우
+                // graph.get(now).get(j).getIndex() 헷갈릴수 있는데 d[x]값이기 때문에 거리를 나타낸다.
                 if (cost < d[graph.get(now).get(j).getIndex()]) {
                     d[graph.get(now).get(j).getIndex()] = cost;
                 }

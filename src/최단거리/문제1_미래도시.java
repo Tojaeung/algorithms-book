@@ -16,7 +16,10 @@ public class 문제1_미래도시 {
         int n = sc.nextInt();   // 노드
         int m = sc.nextInt();   // 간선
 
-        // 이중배열 채우기
+        /*
+         * 이중배열 채우기
+         * Arrays.fill(graph, INF); 그냥 이렇게 하면 이중배열 채우기 안된다.
+         * */
         for (int i = 0; i < 101; i++) {
             Arrays.fill(graph[i], INF);
         }
@@ -30,10 +33,13 @@ public class 문제1_미래도시 {
         for (int i = 0; i < m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
+
+            // 양방향으로 간선이 연결된다.
             graph[a][b] = 1;
             graph[b][a] = 1;
         }
 
+        // 모든지점에서 모든지점으로의 최단거리를 계산한다.
         for (int k = 1; k <= n; k++) {
             for (int a = 1; a <= n; a++) {
                 for (int b = 1; b <= n; b++) {

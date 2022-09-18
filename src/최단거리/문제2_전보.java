@@ -1,4 +1,3 @@
-
 package 최단거리;
 
 import java.util.ArrayList;
@@ -55,9 +54,18 @@ public class 문제2_전보 {
 
             if (d[now] < dist) continue;
             for (int i = 0; i < graph.get(now).size(); i++) {
+                // 시작지점에서 d[now]를 거쳐 graph.get(now).get(i).getDistance()를 가는 비용 
                 int cost = d[now] + graph.get(now).get(i).getDistance();
+
+                /*
+                 * 시작지점에서 d[now]를 거쳐 graph.get(now).get(i).getDistance()를 가는 비용
+                 * 기존에 시작지점에서 d[graph.get(now).get(i).getIndex()]로 가는 비용
+                 * 둘 중에 최단거리로 dp테이블을 갱신해주는 코드이다.
+                 * */
                 if (cost < d[graph.get(now).get(i).getIndex()]) {
                     d[graph.get(now).get(i).getIndex()] = cost;
+
+                    // 그 노드에서 다른 노드로 가능 경우 처리
                     pq.offer(new Node4(graph.get(now).get(i).getIndex(), cost));
                 }
             }
