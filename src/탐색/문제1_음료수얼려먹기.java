@@ -11,7 +11,8 @@ public class 문제1_음료수얼려먹기 {
 
     public static boolean dfs(int x, int y) {
 
-        if (x < 0 || x >= n || y < 0 || y >= m) return false;
+        // 상하좌우 이동시, 얼음틀을 벗어나는 경우
+        if (x < 1 || x > n || y < 1 || y > m) return false;
 
         if (graph[x][y] == 0) {
 
@@ -37,19 +38,20 @@ public class 문제1_음료수얼려먹기 {
 
         sc.nextLine();  // 버퍼 초기화
 
-        // 얼음틀(맵) 만들기
-        for (int i = 0; i < n; i++) {
-            String str = sc.nextLine();
 
-            for (int j = 0; j < m; j++) {
-                graph[i][j] = str.charAt(j) - '0';
+        // 얼음틀(맵) 만들기
+        for (int i = 1; i <= n; i++) {
+            String str = sc.nextLine();
+            for (int j = 1; j <= m; j++) {
+                // ( j - 1 )을 입력값의 싱크를 맞춰준다. (이거때메 한참해멧음..ㄷㄷ)
+                graph[i][j] = str.charAt(j - 1) - '0';
             }
         }
 
         // 얼음틀 하나하나 돈다.
         int result = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
 
                 if (dfs(i, j)) result += 1;
 

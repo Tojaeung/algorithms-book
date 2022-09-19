@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="최단거리유형 복습">
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="그래프이론 유형 복습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/기타/개념3_크루스칼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/개념3_크루스칼.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/기타/개념4_위상정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/개념4_위상정렬.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/기타/문제2_도시분할계획.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/문제2_도시분할계획.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/탐색/문제1_음료수얼려먹기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/탐색/문제1_음료수얼려먹기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/탐색/문제2_미로탈출.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/탐색/문제2_미로탈출.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,7 +59,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.복습연습장">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="4 5" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.문제2_미로탈출">
     <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="복습연습장" />
       <module name="algorithms-basic" />
@@ -68,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제1_위에서아래로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.문제1_위에서아래로" />
+    <configuration name="문제1_음료수얼려먹기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.문제1_음료수얼려먹기" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.*" />
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,38 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제1_1로만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.문제1_1로만들기" />
+    <configuration name="복습연습장2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="복습연습장2" />
       <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="다이나믹프로그래밍.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제1_부품찾기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.문제1_부품찾기2" />
+    <configuration name="문제2_미로탈출" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.문제2_미로탈출" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제2_떡볶이떡만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이진탐색.문제2_떡볶이떡만들기" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="이진탐색.*" />
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.문제2_미로탈출" />
         <item itemvalue="Application.복습연습장" />
+        <item itemvalue="Application.문제1_음료수얼려먹기" />
+        <item itemvalue="Application.복습연습장2" />
         <item itemvalue="Application.문제3_개미전사" />
-        <item itemvalue="Application.문제1_1로만들기" />
-        <item itemvalue="Application.문제1_부품찾기2" />
-        <item itemvalue="Application.문제2_떡볶이떡만들기" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +220,7 @@
       <workItem from="1663411623585" duration="11585000" />
       <workItem from="1663467633441" duration="6346000" />
       <workItem from="1663481138849" duration="19459000" />
-      <workItem from="1663550415265" duration="5971000" />
+      <workItem from="1663550415265" duration="15100000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -328,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663510586176</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="그래프이론 유형 복습">
+      <created>1663568350975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663568350975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +351,8 @@
     <MESSAGE value="이진탐색 복습 및 어려운 문제풀이" />
     <MESSAGE value="DP문제 복습" />
     <MESSAGE value="최단거리유형 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="최단거리유형 복습" />
+    <MESSAGE value="그래프이론 유형 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="그래프이론 유형 복습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
