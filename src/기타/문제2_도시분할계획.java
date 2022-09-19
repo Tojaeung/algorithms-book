@@ -89,7 +89,10 @@ public class 문제2_도시분할계획 {
         // edges가 오름차순 정렬이므로 for를 돌아 자연스럽게 최대 비용이 할당된다. 
         int maxCost = 0;
 
-        // 연산
+        /*
+         * 신장트리에서 가장 큰 비용을 제거하면...
+         * 최소한의 비용으로 도시를 둘로 나눌수 있다.
+         * */
         for (int i = 0; i < edges.size(); i++) {
             int rootA = findRoot(edges.get(i).getNodeA());
             int cost = edges.get(i).getCost();

@@ -86,6 +86,10 @@ public class 개념3_크루스칼 {
 
         // 간선정보 오름차순 정렬
         edges.sort(Comparator.naturalOrder());
+        /*
+         * Collections.sort(edges, Comparator.naturalOrder());
+         * 위의 정렬과 같은 결과를 도출한다.
+         * */
 
         for (int i = 0; i < edges.size(); i++) {
             int rootA = findRoot(edges.get(i).getNodeA());

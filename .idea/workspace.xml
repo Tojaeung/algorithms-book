@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="DP문제 복습">
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="최단거리유형 복습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/최단거리/개념1_다익스트라.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/최단거리/개념1_다익스트라.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/최단거리/문제1_미래도시.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/최단거리/문제1_미래도시.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/최단거리/문제2_전보.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/최단거리/문제2_전보.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념3_크루스칼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/개념3_크루스칼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념4_위상정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/개념4_위상정렬.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/문제2_도시분할계획.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/기타/문제2_도시분할계획.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,31 +39,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.문제3_개미전사">
+  <component name="RunManager" selected="Application.복습연습장">
     <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="복습연습장" />
       <module name="algorithms-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문제1_위에서아래로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.문제1_위에서아래로" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,19 +100,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="이진탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문제1_위에서아래로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.문제1_위에서아래로" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.문제3_개미전사" />
         <item itemvalue="Application.복습연습장" />
+        <item itemvalue="Application.문제3_개미전사" />
         <item itemvalue="Application.문제1_1로만들기" />
         <item itemvalue="Application.문제1_부품찾기2" />
         <item itemvalue="Application.문제2_떡볶이떡만들기" />
@@ -234,7 +234,8 @@
       <workItem from="1663389522692" duration="12433000" />
       <workItem from="1663411623585" duration="11585000" />
       <workItem from="1663467633441" duration="6346000" />
-      <workItem from="1663481138849" duration="19407000" />
+      <workItem from="1663481138849" duration="19459000" />
+      <workItem from="1663550415265" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -320,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663493414613</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="최단거리유형 복습">
+      <created>1663510586176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663510586176</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +358,8 @@
     <MESSAGE value="구현,탐색,정렬 복습" />
     <MESSAGE value="이진탐색 복습 및 어려운 문제풀이" />
     <MESSAGE value="DP문제 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="DP문제 복습" />
+    <MESSAGE value="최단거리유형 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="최단거리유형 복습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
