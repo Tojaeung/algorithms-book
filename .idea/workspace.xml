@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="그리드 실전문제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/구현/실전1_럭키스트레이트.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/구현/실전2_문자열재정렬.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/구현/실전3_문자열압축.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/구현/실전4_자물쇠와열쇠.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="구현 실전문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/탐색/실전1_특정거리의도시찾기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/탐색/실전2_연구소.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/탐색/실전3_경쟁적전염.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +65,26 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.실전1_모험가길드">
+  <component name="RunManager" selected="Application.실전3_경쟁적전염 (1)">
     <configuration name="실전1_모험가길드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="그리드.실전1_모험가길드" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="그리드.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전1_특정거리의도시찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.실전1_특정거리의도시찾기" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +196,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전3_문자열뒤집기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="그리드.실전3_문자열뒤집기" />
+    <configuration name="실전3_경쟁적전염 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.실전3_경쟁적전염" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="그리드.*" />
+          <option name="PATTERN" value="탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전3_경쟁적전염" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.실전3_경쟁적전염" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,9 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.실전3_경쟁적전염 (1)" />
+        <item itemvalue="Application.실전3_경쟁적전염" />
+        <item itemvalue="Application.실전1_특정거리의도시찾기" />
         <item itemvalue="Application.실전2_문자열재정렬" />
         <item itemvalue="Application.실전1_모험가길드" />
-        <item itemvalue="Application.실전3_문자열뒤집기" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +275,9 @@
       <workItem from="1663550415265" duration="15167000" />
       <workItem from="1663587247528" duration="10121000" />
       <workItem from="1663638333825" duration="15898000" />
-      <workItem from="1663678843615" duration="41000" />
+      <workItem from="1663678843615" duration="654000" />
+      <workItem from="1663740960321" duration="723000" />
+      <workItem from="1663754697071" duration="12070000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -355,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663577596613</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="구현 실전문제 풀이">
+      <created>1663678898379</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663678898379</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +424,8 @@
     <MESSAGE value="최단거리유형 복습" />
     <MESSAGE value="그래프이론 유형 복습" />
     <MESSAGE value="탐색 문제 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="탐색 문제 복습" />
+    <MESSAGE value="구현 실전문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="구현 실전문제 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
