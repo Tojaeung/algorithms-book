@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="구현 실전문제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/탐색/실전1_특정거리의도시찾기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/탐색/실전2_연구소.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/탐색/실전3_경쟁적전염.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="탐색 실전문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/정렬/실전1_국영수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/정렬/실전2_안테나.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/정렬/실전3_실패율.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,22 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tojaeung/Desktop/algorithms-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -65,13 +66,59 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.실전3_경쟁적전염 (1)">
-    <configuration name="실전1_모험가길드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="그리드.실전1_모험가길드" />
+  <component name="RunManager" selected="Application.복습연습장">
+    <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="복습연습장" />
+      <module name="algorithms-basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전1_국영수 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.실전1_국영수" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="그리드.*" />
+          <option name="PATTERN" value="정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전1_국영수 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.실전1_국영수" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전1_국영수 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.실전1_국영수" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전1_국영수 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.실전1_국영수" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +141,6 @@
     </configuration>
     <configuration name="실전1_럭키스트레이트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="구현.실전1_럭키스트레이트" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="구현.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="실전2_문자열재정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="구현.실전2_문자열재정렬" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
@@ -196,32 +230,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전3_경쟁적전염 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색.실전3_경쟁적전염" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="실전3_경쟁적전염" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색.실전3_경쟁적전염" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="실전3_문자열압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="구현.실전3_문자열압축" />
       <module name="algorithms-basic" />
@@ -237,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.실전3_경쟁적전염 (1)" />
-        <item itemvalue="Application.실전3_경쟁적전염" />
-        <item itemvalue="Application.실전1_특정거리의도시찾기" />
-        <item itemvalue="Application.실전2_문자열재정렬" />
-        <item itemvalue="Application.실전1_모험가길드" />
+        <item itemvalue="Application.복습연습장" />
+        <item itemvalue="Application.실전1_국영수 (5)" />
+        <item itemvalue="Application.실전1_국영수 (4)" />
+        <item itemvalue="Application.실전1_국영수 (3)" />
+        <item itemvalue="Application.실전1_국영수 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +285,8 @@
       <workItem from="1663638333825" duration="15898000" />
       <workItem from="1663678843615" duration="654000" />
       <workItem from="1663740960321" duration="723000" />
-      <workItem from="1663754697071" duration="12070000" />
+      <workItem from="1663754697071" duration="12135000" />
+      <workItem from="1663826048597" duration="18275000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -391,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663678898379</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="탐색 실전문제 풀이">
+      <created>1663768998200</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663768998200</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +441,8 @@
     <MESSAGE value="그래프이론 유형 복습" />
     <MESSAGE value="탐색 문제 복습" />
     <MESSAGE value="구현 실전문제 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="구현 실전문제 풀이" />
+    <MESSAGE value="탐색 실전문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="탐색 실전문제 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
