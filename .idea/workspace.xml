@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="이진탐색 실전문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/실전1_금광.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/실전2_정수삼각형.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/실전3_병사배치하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/다이나믹프로그래밍/실전4_못생긴수.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="DP 실전문제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/최단거리/실전1_플로이드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/최단거리/실전2_정확한순위.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/최단거리/실전3_화성탐사.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/복습연습장.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/복습연습장.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,20 +70,13 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.실전4_못생긴수">
-    <configuration name="복습연습장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="복습연습장" />
-      <module name="algorithms-basic" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="실전1_금광" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.실전1_금광" />
+  <component name="RunManager" selected="Application.실전1_플로이드">
+    <configuration name="실전1_플로이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="최단거리.실전1_플로이드" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="PATTERN" value="최단거리.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전2_정수삼각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.실전2_정수삼각형" />
+    <configuration name="실전2_정확한순위" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="최단거리.실전2_정확한순위" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="다이나믹프로그래밍.*" />
+          <option name="PATTERN" value="최단거리.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,6 +188,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="실전3_화성탐사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="최단거리.실전3_화성탐사" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="최단거리.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="실전4_못생긴수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="다이나믹프로그래밍.실전4_못생긴수" />
       <module name="algorithms-basic" />
@@ -211,11 +216,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.실전2_정확한순위" />
+        <item itemvalue="Application.실전1_플로이드" />
         <item itemvalue="Application.실전4_못생긴수" />
         <item itemvalue="Application.실전3_병사배치하기" />
-        <item itemvalue="Application.복습연습장" />
-        <item itemvalue="Application.실전2_정수삼각형" />
-        <item itemvalue="Application.실전1_금광" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +262,9 @@
       <workItem from="1664016780663" duration="2000" />
       <workItem from="1664069215508" duration="20615000" />
       <workItem from="1664100229271" duration="204000" />
-      <workItem from="1664100439622" duration="331000" />
+      <workItem from="1664100439622" duration="357000" />
+      <workItem from="1664161399198" duration="18000" />
+      <workItem from="1664161429284" duration="12065000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -393,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664010953543</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DP 실전문제 풀이">
+      <created>1664100790382</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664100790382</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +443,8 @@
     <MESSAGE value="탐색 실전문제 풀이" />
     <MESSAGE value="정렬 실전문제 풀이" />
     <MESSAGE value="이진탐색 실전문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="이진탐색 실전문제풀이" />
+    <MESSAGE value="DP 실전문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="DP 실전문제 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,11 +453,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/다이나믹프로그래밍/실전4_못생긴수.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
