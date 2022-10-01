@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="그래프 실전문제풀이">
-      <change afterPath="$PROJECT_DIR$/src/구현/실전5_뱀.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="고난이도 문제풀이1">
       <change afterPath="$PROJECT_DIR$/src/구현/실전6_치킨배달.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/그리드/실전5_볼링공고르기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/그리드/실전6_무지의먹방라이브.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/기타/개념1_순열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/기타/개념2_조합.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/탐색/실전4_괄호변환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/탐색/실전5_연산자끼워넣기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념1_서로소집합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/개념1_서로소집합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념2_사이클판별.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/개념2_사이클판별.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념3_크루스칼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/개념3_크루스칼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/개념4_위상정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/개념4_위상정렬.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/문제1_팀결성.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/문제1_팀결성.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/문제2_도시분할계획.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/문제2_도시분할계획.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/문제3_커리큘럼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/문제3_커리큘럼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/실전1_여행계획.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/실전1_여행계획.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/실전2_탑승구.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/실전2_탑승구.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/기타/실전3_어두운길.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/그래프이론/실전3_어두운길.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +38,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/기타/개념3_크루스칼.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/기타/실전3_어두운길.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/그래프이론/개념3_크루스칼.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/그래프이론/실전3_어두운길.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/다이나믹프로그래밍/실전3_병사배치하기.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tojaeung/Desktop/algorithms-basic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tojaeung/Desktop/algorithms-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -72,9 +83,9 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.실전5_뱀">
-    <configuration name="개념1_서로소집합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.개념1_서로소집합" />
+  <component name="RunManager" selected="Application.실전5_연산자끼워넣기">
+    <configuration name="개념1_순열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.개념1_순열" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전2_탑승구" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.실전2_탑승구" />
+    <configuration name="개념2_조합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.개념2_조합" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
@@ -190,19 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전3_어두운길" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.실전3_어두운길" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="실전3_화성탐사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="최단거리.실전3_화성탐사" />
       <module name="algorithms-basic" />
@@ -216,12 +214,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="실전5_볼링공고르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="그리드.실전5_볼링공고르기" />
+    <configuration name="실전4_괄호변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.실전4_괄호변환" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="그리드.*" />
+          <option name="PATTERN" value="탐색.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실전5_연산자끼워넣기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="탐색.실전5_연산자끼워넣기" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="탐색.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.실전5_뱀" />
+        <item itemvalue="Application.실전5_연산자끼워넣기" />
+        <item itemvalue="Application.실전4_괄호변환" />
+        <item itemvalue="Application.개념2_조합" />
+        <item itemvalue="Application.개념1_순열" />
         <item itemvalue="Application.실전6_무지의먹방라이브" />
-        <item itemvalue="Application.실전5_볼링공고르기" />
-        <item itemvalue="Application.실전3_어두운길" />
-        <item itemvalue="Application.실전2_탑승구" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +322,9 @@
       <workItem from="1664256113550" duration="523000" />
       <workItem from="1664264783055" duration="14000" />
       <workItem from="1664433797407" duration="15249000" />
-      <workItem from="1664514429153" duration="14351000" />
+      <workItem from="1664514429153" duration="14499000" />
+      <workItem from="1664542243859" duration="18000" />
+      <workItem from="1664585392887" duration="23142000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -467,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664463332996</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="고난이도 문제풀이1">
+      <created>1664537338240</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664537338240</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +527,8 @@
     <MESSAGE value="DP 실전문제 풀이" />
     <MESSAGE value="최단거리 실전문제풀이" />
     <MESSAGE value="그래프 실전문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="그래프 실전문제풀이" />
+    <MESSAGE value="고난이도 문제풀이1" />
+    <option name="LAST_COMMIT_MESSAGE" value="고난이도 문제풀이1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

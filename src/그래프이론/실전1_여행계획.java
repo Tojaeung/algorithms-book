@@ -1,4 +1,4 @@
-package 기타;
+package 그래프이론;
 
 import java.util.ArrayList;
 import java.util.Scanner;

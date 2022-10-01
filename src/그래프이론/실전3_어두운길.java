@@ -1,4 +1,4 @@
-package 기타;
+package 그래프이론;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -89,6 +89,6 @@ public class 실전3_어두운길 {
         }
 
         System.out.println(total - result);
-        
+
     }
 }
