@@ -1,4 +1,4 @@
-package BOJ.Ch9_기타;
+package BOJ.수학;
 
 import java.util.Scanner;
 
