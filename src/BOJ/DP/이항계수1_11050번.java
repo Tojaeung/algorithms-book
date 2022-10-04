@@ -1,4 +1,4 @@
-package BOJ.Ch6_DP;
+package BOJ.DP;
 
 import java.util.Scanner;
 

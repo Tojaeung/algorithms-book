@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 1일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/Ch4_정렬/단어정렬_1181번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/Ch4_정렬/수정렬하기2_2751번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/수학/골드바흐의추측_6588번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/수학/소수구하기_1929번.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 2일차">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/일이삼더하기_9095번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/브루트포스/날짜계산_1476번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/브루트포스/사탕게임_3085번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/브루트포스/수이어쓰기1_1748번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/브루트포스/일곱난쟁이_2309번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Ch9_기타/소수찾기_1978번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/수학/소수찾기_1978번.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/Ch9_기타/최대공약수배수_2609번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/수학/최대공약수배수_2609번.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/Ch6_DP/이항계수1_11050번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/DP/이항계수1_11050번.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,39 +79,13 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.골드바흐의추측_6588번">
-    <configuration name="실전1_럭키스트레이트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="구현.실전1_럭키스트레이트" />
+  <component name="RunManager" selected="Application.카잉달력_6064번">
+    <configuration name="개념2_조합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이코테.Ch9_기타.개념2_조합" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="구현.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="개념2_재귀함수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="탐색.개념2_재귀함수" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="탐색.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="수정렬하기2_2751번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ch4_정렬.수정렬하기2_2751번" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.Ch4_정렬.*" />
+          <option name="PATTERN" value="이코테.Ch9_기타.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="나이순정렬_10814번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ch4_정렬.나이순정렬_10814번" />
+    <configuration name="날짜계산_1476번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.브루트포스.날짜계산_1476번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Ch4_정렬.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="단어정렬_1181번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ch4_정렬.단어정렬_1181번" />
+    <configuration name="일곱난쟁이_2309번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.브루트포스.일곱난쟁이_2309번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.Ch4_정렬.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="소수구하기_1929번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.수학.소수구하기_1929번" />
+    <configuration name="카잉달력_6064번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.브루트포스.카잉달력_6064번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.수학.*" />
+          <option name="PATTERN" value="BOJ.브루트포스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +176,7 @@
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.수학.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.카잉달력_6064번" />
+        <item itemvalue="Application.날짜계산_1476번" />
+        <item itemvalue="Application.일곱난쟁이_2309번" />
+        <item itemvalue="Application.개념2_조합" />
         <item itemvalue="Application.골드바흐의추측_6588번" />
-        <item itemvalue="Application.소수구하기_1929번" />
-        <item itemvalue="Application.나이순정렬_10814번" />
-        <item itemvalue="Application.수정렬하기2_2751번" />
-        <item itemvalue="Application.단어정렬_1181번" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +246,9 @@
       <workItem from="1664673961735" duration="32327000" />
       <workItem from="1664755807760" duration="21525000" />
       <workItem from="1664785245425" duration="1543000" />
+      <workItem from="1664801557401" duration="24000" />
+      <workItem from="1664801592673" duration="64000" />
+      <workItem from="1664846670389" duration="20955000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -469,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664717796169</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="BOJ 문제풀이 2일차">
+      <created>1664801574950</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1664801574950</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DFS,BFS 개념정리" />
     <MESSAGE value="DFS,BFS 연습문제" />
     <MESSAGE value="정렬알고리즘 기초문제 풀이" />
     <MESSAGE value="이진탐색 기초공부" />
@@ -512,7 +495,8 @@
     <MESSAGE value="폴더,파일구조 변경2" />
     <MESSAGE value="폴더,파일구조 변경3" />
     <MESSAGE value="BOJ 문제풀이 1일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 1일차" />
+    <MESSAGE value="BOJ 문제풀이 2일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 2일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
