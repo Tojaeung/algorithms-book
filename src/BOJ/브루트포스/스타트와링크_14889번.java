@@ -3,89 +3,66 @@ package BOJ.브루트포스;
 import java.util.Scanner;
 
 public class 스타트와링크_14889번 {
+    public static int n;
+    public static int[][] map;
+    public static boolean[] visit;
 
-    static int N;
-    static int[][] map;
-    static boolean[] visit;
+    public static int min = Integer.MAX_VALUE;  // 21억 정도....
 
-    static int Min = Integer.MAX_VALUE;
-
-    public static void main(String[] args) {
-
-        Scanner in = new Scanner(System.in);
-
-        N = in.nextInt();
-
-        map = new int[N][N];
-        visit = new boolean[N];
-
-
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                map[i][j] = in.nextInt();
-            }
-        }
-
-        combi(0, 0);
-        System.out.println(Min);
-
-    }
-
-    // idx는 인덱스, count는 조합 개수(=재귀 깊이)
-    static void combi(int idx, int count) {
-        // 팀 조합이 완성될 경우
-        if (count == N / 2) {
-			/*
-			 방문한 팀과 방문하지 않은 팀을 각각 나누어
-			 각 팀의 점수를 구한 뒤 최솟값을 찾는다.
-			*/
+    // 주어진 n에서 팀을 뽑는 조합
+    public static void dfs(int start, int depth) {
+        if (depth == n / 2) {
             diff();
             return;
         }
 
-        for (int i = idx; i < N; i++) {
-            // 방문하지 않았다면?
+        // visit을 사용해서 따로 배열을 만들지않고 조합으로 묶인것과 아닌것을 구분할 수 있다.
+        for (int i = start; i < n; i++) {
             if (!visit[i]) {
-                visit[i] = true;  // 방문으로 변경
-                combi(i + 1, count + 1);  // 재귀 호출
-                visit[i] = false;  // 재귀가 끝나면 비방문으로 변경
+                visit[i] = true;
+                dfs(i + 1, depth + 1);
+                visit[i] = false;
             }
         }
     }
 
-    // 두 팀의 능력치 차이를 계산하는 함수 
-    static void diff() {
-        int team_start = 0;
-        int team_link = 0;
+    public static void diff() {
+        int teamStart = 0;
+        int teamLink = 0;
 
-        for (int i = 0; i < N - 1; i++) {
-            for (int j = i + 1; j < N; j++) {
-                // i 번째 사람과 j 번째 사람이 true라면 스타트팀으로 점수 플러스 
-                if (visit[i] == true && visit[j] == true) {
-                    team_start += map[i][j];
-                    team_start += map[j][i];
-                }
-                // i 번째 사람과 j 번째 사람이 false라면 링크팀으로 점수 플러스 
-                else if (visit[i] == false && visit[j] == false) {
-                    team_link += map[i][j];
-                    team_link += map[j][i];
-                }
+        // for문을 이용해서 조합을 추출하고 같은팀인지 비교한다.
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                // 같은팀이면 능력치를 계산한다.
+                if (visit[i] && visit[j]) teamStart += (map[i][j] + map[j][i]);
+                if (!visit[i] && !visit[j]) teamLink += (map[i][j] + map[j][i]);
             }
         }
-        // 두 팀의 점수 차이 (절댓값)
-        int val = Math.abs(team_start - team_link);
 
-        /*
-         * 두 팀의 점수차가 0이라면 가장 낮은 최솟값이기 때문에
-         * 더이상의 탐색 필요없이 0을 출력하고 종료하면 된다.
-         */
+        int val = Math.abs(teamStart - teamLink);
+        // val이 0이면 더이상 최소값은 없으므로 그대로 출력하고 종료한다.
         if (val == 0) {
             System.out.println(val);
-            System.exit(0);
+            System.exit(0); // 자바 프로그램 강제종료
         }
 
-        Min = Math.min(val, Min);
-
+        min = Math.min(min, val);
     }
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        n = sc.nextInt();
+        map = new int[n][n];
+        visit = new boolean[n];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                map[i][j] = sc.nextInt();
+            }
+        }
+
+        dfs(0, 0);
+        System.out.println(min);
+    }
 }

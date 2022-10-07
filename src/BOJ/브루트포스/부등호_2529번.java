@@ -1,46 +1,56 @@
 package BOJ.브루트포스;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 public class 부등호_2529번 {
-    public static void main(String[] args) throws NumberFormatException, IOException {
+    public static int k;
+    public static boolean[] visit = new boolean[10];
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static char[] arr;
 
-        int n = Integer.parseInt(reader.readLine());
+    public static List<String> result = new ArrayList<>();
 
-        int[] t = new int[n];
-        int[] p = new int[n];
-
-        StringTokenizer st;
-        for (int i = 0; i < n; i++) {
-            st = new StringTokenizer(reader.readLine());
-
-            t[i] = Integer.parseInt(st.nextToken());
-            p[i] = Integer.parseInt(st.nextToken());
+    // 모든 순열을 
+    public static void dfs(String num, int depth) {
+        // k + 1 부등호보다 숫자가 1이 더 많다.
+        if (depth == k + 1) {
+            result.add(num);
+            return;
         }
 
-        // dp : N일에 얻을 수 있는 최대 수익
-        int[] dp = new int[n + 1];
-
-        // 점화식
-        // 현재 날짜에서 소요 시간과 비용을 더해 dp에 저장한다.
-        // 이후, 중복될 때 최대값을 넣는다.
-        // dp[i + t[i]] = max(dp[i + t[i]], dp[i] + p[i]);
-
-        for (int i = 0; i < n; i++) {
-            if (i + t[i] <= n) {
-                // 날짜가 범위를 넘어가지 않는 경우
-                dp[i + t[i]] = Math.max(dp[i + t[i]], dp[i] + p[i]);
+        for (int i = 0; i <= 9; i++) {
+            // 부등호 비교를 위해 처음에는 그냥 넘겨준다.
+            if (depth == 0 || !visit[i] && compare(num.charAt(num.length() - 1) - '0', i, arr[depth - 1])) {
+                visit[i] = true;
+                // num은 문자열, i는 int형이다. 두개의 형을 더하면 하나의 문자열로 된다.
+                dfs(num + i, depth + 1);
+                visit[i] = false;
             }
-            // 현재 경우의 수가 0일 수 있기 때문에 이전의 최대값을 넣어줌.
-            // 해당 날짜에 일할 수 없다면, 이전까지 일한 최대 수당을 넣어주어야 한다.
-            dp[i + 1] = Math.max(dp[i + 1], dp[i]);
         }
-        System.out.println(dp[n]);
+    }
 
+    public static boolean compare(int a, int b, char c) {
+        if (c == '<') return a < b;
+        else return a > b;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        k = sc.nextInt();
+        arr = new char[k];
+
+        for (int i = 0; i < k; i++) {
+            arr[i] = sc.next().charAt(0);
+        }
+
+        dfs("", 0);
+
+        Collections.sort(result);
+        System.out.println(result.get(result.size() - 1));  // 최대값
+        System.out.println(result.get(0));  // 최소값
     }
 }
