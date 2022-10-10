@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 7일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/카드구매하기1_11052번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/카드구매하기2_16194번.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 8일차">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/이친수_2193번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/일로만들기_1463번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/타일링2xN1_11726번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -44,23 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tojaeung/Desktop/algorithms-basic",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tojaeung/Desktop/algorithms-basic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tojaeung\Desktop\algorithms-basic\src" />
@@ -75,20 +76,7 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.카드구매하기2_16194번">
-    <configuration name="카드구매하기1_11052번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.카드구매하기1_11052번" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.일로만들기_1463번">
     <configuration name="카드구매하기2_16194번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.카드구매하기2_16194번" />
       <module name="algorithms-basic" />
@@ -102,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="개념5_비트마스킹" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="이코테.Ch9_기타.개념5_비트마스킹" />
+    <configuration name="타일링2xN1_11726번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.타일링2xN1_11726번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="이코테.Ch9_기타.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="집합_11723번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.브루트포스.집합_11723번" />
+    <configuration name="개념3_보텀업" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="이코테.Ch6_DP.개념3_보텀업" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.브루트포스.*" />
+          <option name="PATTERN" value="이코테.Ch6_DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="부분수열의합_1182번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.브루트포스.부분수열의합_1182번" />
+    <configuration name="일로만들기_1463번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.일로만들기_1463번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.브루트포스.*" />
+          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="이친수_2193번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.이친수_2193번" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.일로만들기_1463번" />
+        <item itemvalue="Application.타일링2xN1_11726번" />
+        <item itemvalue="Application.이친수_2193번" />
+        <item itemvalue="Application.개념3_보텀업" />
         <item itemvalue="Application.카드구매하기2_16194번" />
-        <item itemvalue="Application.카드구매하기1_11052번" />
-        <item itemvalue="Application.부분수열의합_1182번" />
-        <item itemvalue="Application.집합_11723번" />
-        <item itemvalue="Application.개념5_비트마스킹" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,10 @@
       <workItem from="1665224307271" duration="145000" />
       <workItem from="1665228348557" duration="9546000" />
       <workItem from="1665277965242" duration="14000" />
-      <workItem from="1665321224522" duration="4924000" />
+      <workItem from="1665321224522" duration="4973000" />
+      <workItem from="1665363634341" duration="3197000" />
+      <workItem from="1665367394327" duration="8070000" />
+      <workItem from="1665413066234" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -455,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665238136304</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="BOJ 문제풀이 8일차">
+      <created>1665327477137</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1665327477137</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="구현,탐색,정렬 복습" />
     <MESSAGE value="이진탐색 복습 및 어려운 문제풀이" />
     <MESSAGE value="DP문제 복습" />
     <MESSAGE value="최단거리유형 복습" />
@@ -498,7 +508,8 @@
     <MESSAGE value="BOJ 문제풀이 5일차" />
     <MESSAGE value="BOJ 문제풀이 6일차" />
     <MESSAGE value="BOJ 문제풀이 7일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 7일차" />
+    <MESSAGE value="BOJ 문제풀이 8일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 8일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
