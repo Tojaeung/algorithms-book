@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 14일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/RGB거리_1149번.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 15일차">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/계단오르기_2579번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/동물원_1309번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/오르막수_11057번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/포도주시식_2156번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BOJ/DP/일이삼더하기5_15990번.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tojaeung/Desktop/algorithms-basic&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tojaeung/Desktop/algorithms-basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tojaeung\Desktop\algorithms-basic\src" />
@@ -75,33 +77,7 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RGB거리_1149번">
-    <configuration name="일이삼더하기3_15988번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.일이삼더하기3_15988번" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="가장긴증가하는부분수열4_14002번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.가장긴증가하는부분수열4_14002번" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.계단오르기_2579번">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.DP.Main" />
       <module name="algorithms-basic" />
@@ -115,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RGB거리_1149번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.RGB거리_1149번" />
+    <configuration name="오르막수_11057번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.오르막수_11057번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +104,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="쉬운계단수_10844번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.쉬운계단수_10844번" />
+    <configuration name="동물원_1309번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.동물원_1309번" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="포도주시식_2156번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.포도주시식_2156번" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="계단오르기_2579번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.DP.계단오르기_2579번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RGB거리_1149번" />
+        <item itemvalue="Application.계단오르기_2579번" />
+        <item itemvalue="Application.포도주시식_2156번" />
+        <item itemvalue="Application.오르막수_11057번" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.일이삼더하기3_15988번" />
-        <item itemvalue="Application.가장긴증가하는부분수열4_14002번" />
-        <item itemvalue="Application.쉬운계단수_10844번" />
+        <item itemvalue="Application.동물원_1309번" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +237,10 @@
       <workItem from="1665841893375" duration="37000" />
       <workItem from="1665887811269" duration="6978000" />
       <workItem from="1665901033402" duration="2071000" />
-      <workItem from="1665932127650" duration="244000" />
+      <workItem from="1665932127650" duration="262000" />
+      <workItem from="1665969107652" duration="14659000" />
+      <workItem from="1666008730368" duration="842000" />
+      <workItem from="1666014856925" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -524,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665830637456</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="BOJ 문제풀이 15일차">
+      <created>1665932384719</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1665932384719</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="탐색 실전문제 풀이" />
     <MESSAGE value="정렬 실전문제 풀이" />
     <MESSAGE value="이진탐색 실전문제풀이" />
     <MESSAGE value="DP 실전문제 풀이" />
@@ -567,7 +578,8 @@
     <MESSAGE value="BOJ 문제풀이 12일차" />
     <MESSAGE value="BOJ 문제풀이 13일차" />
     <MESSAGE value="BOJ 문제풀이 14일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 14일차" />
+    <MESSAGE value="BOJ 문제풀이 15일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 15일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
