@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 16일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/그래프/덱_10866번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/그래프/큐_10845번.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 17일차">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/그래프/dfs와bfs_1260번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -58,7 +57,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -75,7 +74,7 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.덱_10866번">
+  <component name="RunManager" selected="Application.dfs와bfs_1260번">
     <configuration name="큐_10845번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.그래프.큐_10845번" />
       <module name="algorithms-basic" />
@@ -95,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BOJ.그래프.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="오르막수_11057번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.DP.오르막수_11057번" />
-      <module name="algorithms-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dfs와bfs_1260번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.그래프.dfs와bfs_1260번" />
+      <module name="algorithms-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.그래프.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dfs와bfs_1260번" />
         <item itemvalue="Application.덱_10866번" />
         <item itemvalue="Application.큐_10845번" />
         <item itemvalue="Application.계단오르기_2579번" />
         <item itemvalue="Application.포도주시식_2156번" />
-        <item itemvalue="Application.오르막수_11057번" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +240,9 @@
       <workItem from="1666014856925" duration="722000" />
       <workItem from="1666104409426" duration="530000" />
       <workItem from="1666144187131" duration="4387000" />
-      <workItem from="1666191032787" duration="131000" />
+      <workItem from="1666191032787" duration="147000" />
+      <workItem from="1666227899584" duration="9008000" />
+      <workItem from="1666276670260" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="첫 커밋">
       <created>1662468524110</created>
@@ -544,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666015579082</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="BOJ 문제풀이 17일차">
+      <created>1666191174117</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1666191174117</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이진탐색 실전문제풀이" />
     <MESSAGE value="DP 실전문제 풀이" />
     <MESSAGE value="최단거리 실전문제풀이" />
     <MESSAGE value="그래프 실전문제풀이" />
@@ -587,7 +594,8 @@
     <MESSAGE value="BOJ 문제풀이 14일차" />
     <MESSAGE value="BOJ 문제풀이 15일차" />
     <MESSAGE value="BOJ 문제풀이 16일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 16일차" />
+    <MESSAGE value="BOJ 문제풀이 17일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 17일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
