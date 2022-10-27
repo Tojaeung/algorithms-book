@@ -4,15 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class 나이트의이동_7562번 {
-    public static int testCase, n;
-    public static int[][] map;
-    public static boolean[][] visited;
+public class 미로탐색 {
+    public static int n, m;
+    public static int[][] map = new int[100][100];
+    public static boolean[][] visited = new boolean[100][100];
 
-    public static int[] dx = {-2, -1, 2, 1, 2, 1, -2, -1};
-    public static int[] dy = {1, 2, 1, 2, -1, -2, -1, -2};
-
-    public static int startX, startY, endX, endY;
+    public static int[] dx = {0, -1, 0, 1};
+    public static int[] dy = {-1, 0, 1, 0};
 
     public static class Position {
         private int x;
@@ -34,7 +32,7 @@ public class 나이트의이동_7562번 {
 
     public static void bfs(int x, int y) {
         // 목표 포지션에 도착하면 종료
-        if (x == endX && y == endY) return;
+        if (x == n - 1 && y == m - 1) return;
 
         visited[x][y] = true;
 
@@ -47,18 +45,16 @@ public class 나이트의이동_7562번 {
             x = position.getX();
             y = position.getY();
 
-            for (int i = 0; i < 8; i++) {
+            for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
 
-                if (nx < 0 || nx >= n || ny < 0 || ny >= n || visited[nx][ny]) continue;
+                if (nx < 0 || nx >= n || ny < 0 || ny >= m || visited[nx][ny] || map[nx][ny] == 0) continue;
 
-                q.add(new Position(nx, ny));
+                q.offer(new Position(nx, ny));
                 visited[nx][ny] = true;
                 // 전의 이동 횟수에 +1 씩 더해주며 이동 횟수를 증가시켜준다.
                 map[nx][ny] = map[x][y] + 1;
-
-
             }
 
         }
@@ -67,20 +63,18 @@ public class 나이트의이동_7562번 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        testCase = sc.nextInt();
-        while (testCase-- > 0) {
-            n = sc.nextInt();
-            map = new int[n][n];
-            visited = new boolean[n][n];
+        // (0, 0) 에서 (n-1, m-1)
+        n = sc.nextInt();
+        m = sc.nextInt();
 
-            startX = sc.nextInt();
-            startY = sc.nextInt();
-            endX = sc.nextInt();
-            endY = sc.nextInt();
-
-            bfs(startX, startY);
-            System.out.println(map[endX][endY]);
+        for (int i = 0; i < n; i++) {
+            String str = sc.next();
+            for (int j = 0; j < m; j++) {
+                map[i][j] = str.charAt(j) - '0';
+            }
         }
 
+        bfs(0, 0);
+        System.out.println(map[n - 1][m - 1]);
     }
 }

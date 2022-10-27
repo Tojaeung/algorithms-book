@@ -1,4 +1,4 @@
-package BOJ.Ch2_구현;
+package BOJ.구현;
 
 import java.util.Scanner;
 
