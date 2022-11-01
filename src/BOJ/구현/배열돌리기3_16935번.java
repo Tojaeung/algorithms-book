@@ -90,7 +90,7 @@ public class 배열돌리기3_16935번 {
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                temp[i][j] = map[m - 1 - i][i];
+                temp[i][j] = map[n - 1 - j][i];
             }
         }
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 22일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/구현/배열돌리기3_16935번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/구현/배열복원하기_16967번.java" afterDir="false" />
+    <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 24일차">
+      <change afterPath="$PROJECT_DIR$/src/BOJ/구현/배열돌리기2_16927번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BOJ/구현/배열돌리기3_16935번.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BOJ/구현/배열돌리기3_16935번.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +75,13 @@
       <command value="4 5" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.배열돌리기3_16935번">
-    <configuration name="미로탐색" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.그래프.미로탐색" />
+  <component name="RunManager" selected="Application.배열돌리기2_16927번">
+    <configuration name="배열돌리기2_16927번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.구현.배열돌리기2_16927번" />
       <module name="algorithms-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BOJ.그래프.*" />
+          <option name="PATTERN" value="BOJ.구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.배열돌리기2_16927번" />
         <item itemvalue="Application.배열돌리기3_16935번" />
         <item itemvalue="Application.배열복원하기_16967번" />
         <item itemvalue="Application.겉넓이구하기_16931번" />
         <item itemvalue="Application.단지번호붙이기_2667번" />
-        <item itemvalue="Application.미로탐색" />
       </list>
     </recent_temporary>
   </component>
@@ -253,14 +253,10 @@
       <workItem from="1666927701692" duration="3953000" />
       <workItem from="1666968866688" duration="76000" />
       <workItem from="1667002775766" duration="16493000" />
-      <workItem from="1667050308305" duration="5171000" />
-    </task>
-    <task id="LOCAL-00001" summary="첫 커밋">
-      <created>1662468524110</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1662468524110</updated>
+      <workItem from="1667050308305" duration="5460000" />
+      <workItem from="1667136167293" duration="1236000" />
+      <workItem from="1667226724260" duration="6491000" />
+      <workItem from="1667313941981" duration="4361000" />
     </task>
     <task id="LOCAL-00002" summary="그리드 연습문제 풀이">
       <created>1662531927588</created>
@@ -598,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666968937395</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="BOJ 문제풀이 24일차">
+      <created>1667055542372</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1667055542372</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="폴더,파일구조 변경" />
     <MESSAGE value="폴더,파일구조 변경2" />
     <MESSAGE value="폴더,파일구조 변경3" />
     <MESSAGE value="BOJ 문제풀이 1일차" />
@@ -641,7 +643,8 @@
     <MESSAGE value="BOJ 문제풀이 20일차" />
     <MESSAGE value="BOJ 문제풀이 21일차" />
     <MESSAGE value="BOJ 문제풀이 22일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 22일차" />
+    <MESSAGE value="BOJ 문제풀이 24일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 문제풀이 24일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
