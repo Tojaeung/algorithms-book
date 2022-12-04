@@ -1,4 +1,4 @@
-package BOJ.Ch9_기타;
+package BOJ.기타;
 
 import java.util.Scanner;
 
@@ -21,16 +21,16 @@ public class Hashing_15829번 {
         long r = 1;
 
         // 모듈러연산으로 int long 범위를 벗어나는 31제곱을 효율적으로 처리한다.
-        // (a + b) mod M = ((a mod M) + (b mod M)) mod M 
-        // (a - b) mod M = ((a mod M) - (b mod M)) mod M 
-        // (a * b) mod M = ((a mod M) * (b mod M)) mod M 
+        // (a + b) mod M = ((a mod M) + (b mod M)) mod M
+        // (a - b) mod M = ((a mod M) - (b mod M)) mod M
+        // (a * b) mod M = ((a mod M) * (b mod M)) mod M
         for (int i = 0; i < l; i++) {
             result += (arr[i] * r) % M;
             r = (r * 31) % M;
         }
 
         // for (int i = 0; i < l; i++) {
-        //     result += arr[i] * Math.pow(31, i);
+        // result += arr[i] * Math.pow(31, i);
         // }
 
         System.out.println(result % M);

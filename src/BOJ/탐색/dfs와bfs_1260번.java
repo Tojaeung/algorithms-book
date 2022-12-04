@@ -1,4 +1,4 @@
-package BOJ.그래프;
+package BOJ.탐색;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -15,7 +15,8 @@ public class dfs와bfs_1260번 {
         System.out.print(x + " ");
 
         for (int i = 1; i < graph[x].length; i++) {
-            if (!dfsVisited[i] && graph[x][i] == 1) dfs(i);
+            if (!dfsVisited[i] && graph[x][i] == 1)
+                dfs(i);
         }
     }
 
@@ -64,18 +65,18 @@ public class dfs와bfs_1260번 {
         // 복잡하고 심지어 출력초과로 에러가 난다.
 
         // for (int i = 0; i <= n; i++) {
-        //     graph.add(new ArrayList<>());
+        // graph.add(new ArrayList<>());
         // }
 
         // for (int i = 0; i < m; i++) {
-        //     int start = sc.nextInt();
-        //     int end = sc.nextInt();
-        //     graph.get(start).add(end);
-        //     graph.get(end).add(start);
+        // int start = sc.nextInt();
+        // int end = sc.nextInt();
+        // graph.get(start).add(end);
+        // graph.get(end).add(start);
         // }
         //
         // for (int i = 1; i <= n; i++) {
-        //     Collections.sort(graph.get(i));
+        // Collections.sort(graph.get(i));
         // }
 
         dfs(start);

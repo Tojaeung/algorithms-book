@@ -1,4 +1,4 @@
-package BOJ.Ch4_정렬;
+package BOJ.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,11 +23,11 @@ public class 수정렬하기3_10989번 {
             // if (arr[i] == 0) continue;
             // if (arr[i] == 1) System.out.println(i);
             // if (arr[i] > 1) {
-            //     int cnt = arr[i];
-            //     while (cnt != 0) {
-            //         System.out.println(i);
-            //         cnt--;
-            //     }
+            // int cnt = arr[i];
+            // while (cnt != 0) {
+            // System.out.println(i);
+            // cnt--;
+            // }
             // }
 
             // 위의 코드가 이렇게 간결하고 쉽게 바뀔수 있다,....
@@ -38,7 +38,7 @@ public class 수정렬하기3_10989번 {
         }
 
         System.out.println(sb);
-        
+
         // 오름차순 정렬
         // sort메서드로는 시간초과...
         // Arrays.sort(arr);

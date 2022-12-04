@@ -1,4 +1,4 @@
-package BOJ.그래프;
+package BOJ.탐색;
 
 import java.util.Scanner;
 
@@ -11,23 +11,25 @@ public class 연결요소의개수_11724번 {
         visited[x] = true;
 
         for (int i = 1; i < graph[x].length; i++) {
-            if (!visited[i] && graph[x][i] == 1) dfs(i);
+            if (!visited[i] && graph[x][i] == 1)
+                dfs(i);
         }
     }
 
     /*
      * 방문하지 않은 노드를 확인한다.
+     * 
      * @return: 방문하지 않는 노드의 인덱스
-     * */
+     */
     // public static int checkVisited() {
-    //     int index = -1;
-    //     for (int i = 1; i < n + 1; i++) {
-    //         if (!visited[i]) {
-    //             index = i;
-    //             break;
-    //         }
-    //     }
-    //     return index;
+    // int index = -1;
+    // for (int i = 1; i < n + 1; i++) {
+    // if (!visited[i]) {
+    // index = i;
+    // break;
+    // }
+    // }
+    // return index;
     // }
 
     public static void main(String[] args) {
@@ -60,14 +62,14 @@ public class 연결요소의개수_11724번 {
         // 간선을 양방향 설정하지 않은 풀이
         // 심지어 (3 -> 4 -> 6 일때 dfs(4)라면 4,6만 연결되고 3은 연결되지 않는다.) 때문에 ...
         // 오답이다...
-        
+
         // // 위에서 dfs를 한번 돌았기 때문에 1
         // int cnt = 1;
         // while (checkVisited() != -1) {
-        //     // 방문안한 노드의 인덱스 반환
-        //     int index = checkVisited();
-        //     dfs(index);
-        //     cnt++;
+        // // 방문안한 노드의 인덱스 반환
+        // int index = checkVisited();
+        // dfs(index);
+        // cnt++;
         // }
         System.out.println(cnt);
     }

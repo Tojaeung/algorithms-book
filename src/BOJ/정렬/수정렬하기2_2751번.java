@@ -1,4 +1,4 @@
-package BOJ.Ch4_정렬;
+package BOJ.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,11 +9,10 @@ public class 수정렬하기2_2751번 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
-        
-		/*
-		  -1000000 ~ 1000000
-		  기준점 0 = index 100000 으로 생각
-		*/
+
+        /*
+         * -1000000 ~ 1000000 기준점 0 = index 100000 으로 생각
+         */
         boolean[] arr = new boolean[2000001];
 
         int N = Integer.parseInt(br.readLine());

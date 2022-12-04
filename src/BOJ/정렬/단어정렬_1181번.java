@@ -1,4 +1,4 @@
-package BOJ.Ch4_정렬;
+package BOJ.정렬;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -19,9 +19,11 @@ public class 단어정렬_1181번 {
             @Override
             public int compare(String o1, String o2) {
                 // 길이가 같을때 오름차순 정렬
-                if (o1.length() == o2.length()) return o1.compareTo(o2);
-                    // 길이가 다를때 양의정수: 위치바꿈, 음의정수: 그대로
-                else return o1.length() - o2.length();
+                if (o1.length() == o2.length())
+                    return o1.compareTo(o2);
+                // 길이가 다를때 양의정수: 위치바꿈, 음의정수: 그대로
+                else
+                    return o1.length() - o2.length();
             }
         });
 

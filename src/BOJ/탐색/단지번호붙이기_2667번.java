@@ -1,4 +1,4 @@
-package BOJ.그래프;
+package BOJ.탐색;
 
 import java.util.ArrayList;
 import java.util.Collections;
