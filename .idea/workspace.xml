@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b64b466-ef43-4bfd-b843-26e5046757c7" name="Changes" comment="BOJ 문제풀이 25일차">
-      <change afterPath="$PROJECT_DIR$/src/BOJ/BFS/숨박꼭질_1697번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BOJ/DP/피보나치함수_1003번.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -266,6 +263,10 @@
       <workItem from="1667836679625" duration="4741000" />
       <workItem from="1668067637441" duration="140000" />
       <workItem from="1668355777390" duration="5769000" />
+      <workItem from="1670170078733" duration="18000" />
+      <workItem from="1670170222973" duration="6000" />
+      <workItem from="1670170277401" duration="82000" />
+      <workItem from="1670170377934" duration="58000" />
     </task>
     <task id="LOCAL-00003" summary="구현 연습문제 풀이">
       <created>1662564331844</created>
