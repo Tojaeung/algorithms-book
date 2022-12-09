@@ -29,7 +29,7 @@ public class Z_1074번 {
 			partition(r, c, newSize);
 		}
 
-		if (R < r && c + newSize <= C) { // 2사분면
+		if (R < r + newSize && c + newSize <= C) { // 2사분면
 			// 2사분면 시작값
 			result += (size * size) / 4;
 			partition(r, c + newSize, newSize);
